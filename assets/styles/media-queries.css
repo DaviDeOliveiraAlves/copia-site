@@ -1,0 +1,115 @@
+@media (max-width: 1024px) {
+  .topbar { display: none; }
+
+  .header {
+    top: 0;
+    background: white;
+    padding: 20px 40px;
+  }
+
+  .header-left,
+  .header-right {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    color: black;
+  }
+
+  .logo-light { display: none; }
+  .logo-dark { display: block; }
+
+  .hero { padding: 0 20px; }
+
+  .hero-content h1 { font-size: 40px; }
+
+  .description { font-size: 15px; }
+
+  .clients-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .travel-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .travel-item.reverse {
+    flex-direction: column;
+  }
+
+  .newsletter-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .newsletter-form {
+    justify-content: center;
+  }
+
+  .featured-blog-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .featured-blog-item {
+    flex: 1 1 45%;
+  }
+
+  .footer-top {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header { padding: 15px 20px; }
+
+  .logo img { height: 40px; }
+
+  .hero-content h1 { font-size: 28px; }
+
+  .description { font-size: 14px; }
+
+  .hero button { padding: 12px 25px; }
+
+  .clients-container { flex-direction: column; }
+
+  .travel-container { gap: 50px; }
+
+  .travel-text h2 { font-size: 22px; }
+
+  .newsletter-form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .newsletter-form input { width: 100%; }
+
+  .newsletter-form button { width: 100%; }
+
+  .featured-blog-item {
+    flex: 1 1 100%;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-logo p {
+    margin: 0 auto;
+  }
+}

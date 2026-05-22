@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.header a:hover {
+  background: white;
+  color: #7aa93c;
+  padding: 6px 14px;
+  border-radius: 3px;
+}
+
+.hero-content a {
+  text-decoration: none;
+}
+
+.travel-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.travel-text a:hover {
+  color: #7aa93c;
+}
+
+.featured-blog-item h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.featured-blog-item h3 a:hover {
+  color: #7aa93c;
+}
+
+/* BOTÃO BASE */
+button {
+  cursor: pointer;
+}
